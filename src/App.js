@@ -138,7 +138,7 @@ function App() {
             <h1>Leaderboards</h1>
             <button
               onClick={() =>
-                (window.location.href = "https://meshekmeller.wiplify.com")
+                (window.location.href = "https://gp1.socio-fi.com/")
               }
             >
               Try Again?
