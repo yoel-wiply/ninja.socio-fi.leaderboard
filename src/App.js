@@ -48,13 +48,16 @@ function App() {
             // organize player leaderboards
             result.shift();
 
+
+
             let temp = result.map((player) => {
               return {
                 username: player[0],
                 email: player[1],
-                score: player[2],
+                score: player[4],
               };
             });
+
 
             temp.push(currentPlayer);
 
@@ -72,25 +75,25 @@ function App() {
               if (
                 currentPlayer === temp[0] ||
                 currentPlayer === temp[1] ||
-                currentPlayer === temp[2]
+                currentPlayer === temp[4]
               ) {
                 setLocalPlayers([
                   { ...temp[0], rank: 1 },
                   { ...temp[1], rank: 2 },
-                  { ...temp[2], rank: 3 },
+                  { ...temp[4], rank: 3 },
                 ]);
               } else if (isPlayer) {
                 setLocalPlayers([
                   { ...temp[0], rank: 1 },
                   { ...temp[1], rank: 2 },
-                  { ...temp[2], rank: 3 },
+                  { ...temp[4], rank: 3 },
                   currentPlayer.email !== 0 ? { ...currentPlayer, rank } : "",
                 ]);
               } else if (!isPlayer) {
                 setLocalPlayers([
                   { ...temp[0], rank: 1 },
                   { ...temp[1], rank: 2 },
-                  { ...temp[2], rank: 3 },
+                  { ...temp[4], rank: 3 },
                 ]);
               } else setLocalPlayers(temp);
             }
