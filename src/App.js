@@ -111,7 +111,7 @@ function App() {
     setTimeout(() => {
       getValues(
         gapi.client,
-        "1pdY_b6jqbG13HAwLznVxdLABGYFehEc2HhstGR8M1UE",
+        "1JQ26sGSLqxXlWzwTZJ7mKXzXDwCXoC7WnFkPMrHbjKU",
         "Sheet1"
       );
 
