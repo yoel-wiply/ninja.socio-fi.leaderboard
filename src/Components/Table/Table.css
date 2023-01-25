@@ -64,9 +64,6 @@ th {
     color: white;
 }
 
-.white{
-  color: white !important;
-}
 @media screen and (max-width:764px) {
   td, th {
     padding: 10px 5px;
