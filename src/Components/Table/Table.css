@@ -60,8 +60,8 @@ th {
   
 }
 .current{
-  background: #820D2B;
-    color: white;
+  background: white;
+    color: #820D2B;
 }
 
 @media screen and (max-width:764px) {
