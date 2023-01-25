@@ -1,0 +1,30 @@
+.camper-image-first,.camper-image{
+  width: 32px;
+  filter: drop-shadow(0 0 10px #00000026);
+}
+/*color to green*/
+img.camper-image-first {
+  filter: hue-rotate(330deg) drop-shadow(0 0 10px #00000050);;
+  
+}
+
+.fullname{
+  margin: 0 22px;
+  
+}
+
+
+@media screen and (max-width:764px) {
+  .fullname{
+    margin: 0;
+    
+    
+  }
+  .camper-image-first,.camper-image{
+    width: 20px;
+  }
+  .camper-image{
+    margin:0 5px;
+  }
+
+}

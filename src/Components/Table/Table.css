@@ -1,0 +1,75 @@
+.fulltable{
+  max-height: 60vh;
+  overflow-x: hidden;
+  
+}
+table {
+  width: 98%;  
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  margin: 0 auto;
+  
+}
+td{
+  max-width: 0;
+}
+td, th {
+  padding: 10px 20px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow:ellipsis; 
+}
+th[scope=col]{
+  padding: 0px 20px;
+
+}
+tr:nth-child(2) {
+  background-color: rgb(255, 255, 255);
+  outline: 3px solid #820D2B;
+  border-radius: 16px;
+}
+
+tr:nth-child(2) .points{
+  font-weight: 600;
+  font-size: 17px;
+  color: #820D2B;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+}
+
+th {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.row{
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.568));
+
+}
+
+.image{
+  border-radius: 16px 0px 0px 16px;
+
+  
+}
+.points{
+  border-radius: 0 16px 16px 0 ;
+  
+}
+.current{
+  background: #820D2B;
+    color: white;
+}
+
+.white{
+  color: white !important;
+}
+@media screen and (max-width:764px) {
+  td, th {
+    padding: 10px 5px;
+  }
+
+}

@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f179;
+  
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #820D2B;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #820D2B;
+}
+
+.fullcontent {
+  max-width: 800px;
+  margin: auto;
+  
+  padding: 50px 0;
+  width: 95%;
+}
+header {
+  margin-bottom: 20px;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background: black;
+  box-shadow: 0px 4px 4px #00000026;
+  border-radius: 16px;
+  
+}
+
+.navbar button,
+.navbar h1 {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+}
+
+.navbar button {
+  font-weight: 600;
+  font-size: 20px;
+  
+}
+.navbar h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+.wiplylogo{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+@media screen and (max-width: 764px) {
+  .navbar button {
+    font-size: 14px;
+  }
+  .navbar h1 {
+    font-size: 17px;
+    padding: 10px 0;
+  }
+}
